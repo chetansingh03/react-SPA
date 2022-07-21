@@ -7,11 +7,19 @@ import Nav from "./nav";
 import Nv, { Corousel, Off, Sale } from "./navv";
 import Brands, { Footer } from "./brands";
 import { BrowserRouter } from "react-router-dom";
-import A from "./navlink";
+import { faCouch } from "@fortawesome/free-solid-svg-icons";
+function Home() {
+  return (
+    <>
+      <Nav />
+      <Nv />
+      <Corousel />
+      <Off />
+      <Sale />
+      <Brands />
+      <Footer />
+    </>
+  );
+}
 
-ReactDOM.render(
-  <>
-    <A />
-  </>,
-  document.getElementById("new")
-);
+export default Home;
