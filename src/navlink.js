@@ -24,7 +24,7 @@ function A() {
       <BrowserRouter>
         <Routes>
           <Route
-            path="https://chetansingh03.github.io/react-spa/"
+            path="/"
             element={
               <>
                 <Nav />
