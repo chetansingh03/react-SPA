@@ -6,14 +6,14 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Nav from "./nav";
 import Nv, { Corousel, Off, Sale } from "./navv";
 import Brands, { Footer } from "./brands";
-import { BrowserRouter as Router } from ‘react-router-dom’;
+
 import A from "./navlink";
 
 ReactDOM.render(
   <>
-<Router basename={process.env.https://chetansingh03.github.io/react-spa/}>
+
     <A />
- </Router>
+
   </>,
   document.getElementById("new")
 );
