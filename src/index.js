@@ -11,7 +11,7 @@ import A from "./navlink";
 
 ReactDOM.render(
   <>
-<Router basename={process.env.PUBLIC_URL}>
+<Router basename={process.env.https://chetansingh03.github.io/react-spa/}>
     <A />
  </Router>
   </>,
