@@ -21,10 +21,10 @@ import Sales from "./sale";
 function A() {
   return (
     <>
-      <BrowserRouter basename="/react-spa">
+      <BrowserRouter >
         <Routes>
           <Route
-           exact path="/"
+            path="/"
             element={
               <>
                 <Nav />
