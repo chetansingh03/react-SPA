@@ -21,10 +21,10 @@ import Sales from "./sale";
 function A() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Routes>
           <Route
-            path="/"
+           exact path="/"
             element={
               <>
                 <Nav />
