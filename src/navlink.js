@@ -21,7 +21,7 @@ import Sales from "./sale";
 function A() {
   return (
     <>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/react-spa">
         <Routes>
           <Route
            exact path="/"
